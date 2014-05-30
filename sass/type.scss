@@ -1,0 +1,23 @@
+h1 {
+	font-size: 16px;
+	font-family: $ff;
+	font-weight: bold;
+	color:$title-color;
+	margin: 0;
+	padding: 0;
+	a {
+		color: $link-color;
+		text-decoration: none;
+	}
+}
+p {
+	color:$title-color;
+	font-family: $ff;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+.sm_w2_1text-left           { text-align: left; }
+.sm_w2_1text-right          { text-align: right; }
+.sm_w2_1text-center         { text-align: center; }

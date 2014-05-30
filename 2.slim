@@ -1,0 +1,138 @@
+doctype html
+html
+  head
+    meta charset="utf-8" 
+    meta content="IE=edge" http-equiv="X-UA-Compatible" 
+    title v2_1 Горизонтальный с двумя товарами
+    link href="css/main.css" rel="stylesheet" type="text/css" 
+    script src="js/min/all.min.js"
+  body
+    .test-container style=("padding:5px;") 
+      .sm_w2_1.sm_w2_1horizontal-three.sm_w2_1popover_cont
+        .sm_w2_1container
+          .sm_w2_1row.sm_w2_1row-head
+            .sm_w2_1col-2
+              a.sm_w2_1ya-logo href="ya.ru" alt="Яндекс Маркет"
+                img.sm_w2_1img-responsive src="img/yam.png"
+            .sm_w2_1col-7.sm_w2_1item-title
+              h1.sm_w2_1one-line
+                | Предложения дня в городе
+                a.sm_w2_1change-city data-popover-container=".sm_w2_1popover_cont" data-popover-close=".sm_w2_1close-change-sity" rel="change-city" data-popover-content="#sm_w2_1change-sity-content" Москва
+              .sm_w2_1change-sity-content#sm_w2_1change-sity-content.sm_w2_1hidden
+                .sm_w2_1change-sity-content
+                  h4 Выберите город
+                  span.sm_w2_1close.sm_w2_1close-change-sity type="button"  &times;
+                  .sm_w2_1clearfix
+                  form.sm_w2_1form-inline.sm_w2_1search-sity role="form" 
+                    .sm_w2_1form-group
+                      input#sity.sm_w2_1form-control.sm_w2_1input-sm placeholder=("Поиск города...") type="text" 
+                      span.sm_w2_1lupa
+                        i.sm_w2_1glyphicon.sm_w2_1glyphicon-search
+                  ul
+                    li.sm_w2_1active Москва
+                    li Санкт-Петербург
+                    li Оренбург
+                    li Екатеринбург
+                    li Владивосток
+                    li Сочи
+                    li Казань
+                    li Оренбург
+                    li Екатеринбург
+                    li Владивосток
+                    li Сочи
+                    li Казань
+                    li Владивосток
+                    li Сочи
+                    li Казань
+                    li Оренбург
+                    li Екатеринбург
+                    li Владивосток
+                    li Сочи
+                    li Казань
+            .sm_w2_1col-3.sm_w2_1power.one-power
+              p.sm_w2_1text-right
+                | Powered by
+                a SocialMart
+
+          .sm_w2_1row.sm_w2_1row-body
+            .sm_w2_1col-2
+              a href="#"
+                img.sm_w2_1img-responsive.sm_w2_1item-photo.sm_w2_1item-three-photo alt="" src="img/htc.png"
+            .sm_w2_1col-4.sm_w2_1item-three-title
+              h1
+                a Apple iPhone 5 16Gb 
+                br
+                  | от
+                  a 22 400 р
+              .sm_w2_1all-prop
+                a
+                  span.sm_w2_1txt Все предложения
+                  span.sm_w2_1count 25
+            .sm_w2_1col-6
+              == Slim::Template.new("tbl-sm.slim").render
+          .sm_w2_1row.sm_w2_1row-body
+            / .clearfix.offset-midl
+            .sm_w2_1col-2
+              a href="#"
+                img.sm_w2_1img-responsive.sm_w2_1item-photo.sm_w2_1item-three-photo alt="" src="img/htc.png"
+            .sm_w2_1col-4.sm_w2_1item-three-title
+              h1
+                a Apple iPhone 5 16Gb 
+                br
+                  | от
+                  a 22 400 р
+              .sm_w2_1all-prop
+                a
+                  span.sm_w2_1txt Все предложения
+                  span.sm_w2_1count 25
+            .sm_w2_1col-6
+              == Slim::Template.new("tbl-sm.slim").render
+    .test-container style=("padding:5px;") 
+      .sm_w2_1.sm_w2_1horizontal-three
+        .sm_w2_1container
+          .sm_w2_1row.sm_w2_1row-head
+            .sm_w2_1col-8.sm_w2_1item-title
+              h1
+                | Предложения дня в городе
+                a.sm_w2_1change-city href="http://" target="_blank" Москва
+            .sm_w2_1col-4.sm_w2_1power
+              p.sm_w2_1text-right
+                | Powered by
+                a SocialMart
+              p.sm_w2_1text-right
+                | Данные – 
+                a Яндекс-маркет
+
+          .sm_w2_1row.sm_w2_1row-body
+            .sm_w2_1col-2
+              a href="#"
+                img.sm_w2_1img-responsive.sm_w2_1item-photo.sm_w2_1item-three-photo alt="" src="img/htc.png"
+            .sm_w2_1col-4.sm_w2_1item-three-title
+              h1
+                a Apple iPhone 5 16Gb 
+                br
+                  | от
+                  a 22 400 р
+              .sm_w2_1all-prop
+                a
+                  span.sm_w2_1txt Все предложения
+                  span.sm_w2_1count 25
+            .sm_w2_1col-6
+              == Slim::Template.new("tbl-sm.slim").render
+          .sm_w2_1row.sm_w2_1row-body
+            / .clearfix.offset-midl
+            .sm_w2_1col-2
+              a href="#"
+                img.sm_w2_1img-responsive.sm_w2_1item-photo.sm_w2_1item-three-photo alt="" src="img/htc.png"
+            .sm_w2_1col-4.sm_w2_1item-three-title
+              h1
+                a Apple iPhone 5 16Gb 
+                br
+                  | от
+                  a 22 400 р
+              .sm_w2_1all-prop
+                a
+                  span.sm_w2_1txt Все предложения
+                  span.sm_w2_1count 25
+            .sm_w2_1col-6
+              == Slim::Template.new("tbl-sm.slim").render

@@ -1,0 +1,36 @@
+* {
+  @include box-sizing(border-box);
+}
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+.sm_w2_1container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: ($grid-gutter-width / 2);
+    padding-right: ($grid-gutter-width / 2);
+    .sm_w2_1row {
+        @include make-row();
+    }
+    .sm_w2_1row-head {
+        background-color: #f7f7f7;
+        border-bottom: 1px solid #e7e7e7;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    .sm_w2_1row-body {
+        padding-bottom: 10px;
+    }
+    @include make-grid-columns();
+    @include make-grid();
+}
+
+td, th {
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
