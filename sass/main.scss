@@ -180,6 +180,16 @@
         &.sm_w2_1first-call {
           padding-left: 8px;
           min-width: 73px;
+
+
+
+          @media (max-width: 550px) {
+            min-width: 76px;
+            text-overflow: ellipsis;
+            max-width: 76px;
+            overflow: hidden;
+          }
+
           a {
             display: inline;
           }
@@ -194,9 +204,28 @@
         }
         &.sm_w2_1midl-call {
           width: 62px;
+          min-width: 60px;
+          padding-left: 10px;
+          @media (max-width: 550px) {
+            
+            padding-left: 5px;
+            min-width: 55px;
+          }
         }
         padding-bottom: 3px;
         padding-top: 1px;
+
+        text-align: left;
+
+        &.sm_w2_1visible-big {
+
+          @media (max-width: 768px) {
+            display:none;
+          }
+          .sm_w2_1rate2 {
+            margin-right: 10px;
+          }
+        }
 
       }
       tr:hover {
@@ -204,11 +233,13 @@
         td {
           background-color: #f0f5f9;
           &.sm_w2_1first-call {
-            a {
-              display: none;
-            }
-            .sm_w2_1prices_rate {
-              display: block;
+            @media (max-width: 768px) {
+              a {
+                display: none;
+              }
+              .sm_w2_1prices_rate {
+                display: block;
+              }
             }
           }
         }   
