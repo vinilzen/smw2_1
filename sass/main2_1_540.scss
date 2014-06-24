@@ -1,0 +1,26 @@
+@import "var";
+@import "mixins";
+
+.sm_w2_1 {
+    
+    &.sm_w2_1horizontal_540 {
+      .sm_w2_1compare.sm_w2_1three-tbl td.sm_w2_1visible-big {
+        display: none;
+      }
+      .sm_w2_1compare.sm_w2_1three-tbl tr:hover td.sm_w2_1first-call .sm_w2_1prices_rate {
+        display: block;
+      }
+      .sm_w2_1compare.sm_w2_1three-tbl tr {
+        td.sm_w2_1first-call a {
+          display: inline-block;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-width: 80px;
+          min-width: 80px;
+        }        
+        &:hover td.sm_w2_1first-call a {
+          display: none;
+        }
+      }
+    }
+}

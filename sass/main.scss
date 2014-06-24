@@ -183,12 +183,7 @@
 
 
 
-          @media (max-width: 550px) {
-            min-width: 76px;
-            text-overflow: ellipsis;
-            max-width: 76px;
-            overflow: hidden;
-          }
+          // @media (max-width: 550px) {min-width: 76px;            text-overflow: ellipsis;            max-width: 76px;            overflow: hidden;          }
 
           a {
             display: inline;
@@ -219,9 +214,7 @@
 
         &.sm_w2_1visible-big {
 
-          @media (max-width: 768px) {
-            display:none;
-          }
+          // @media (max-width: 768px) {            display:none;          }
           .sm_w2_1rate2 {
             margin-right: 10px;
           }
@@ -233,14 +226,7 @@
         td {
           background-color: #f0f5f9;
           &.sm_w2_1first-call {
-            @media (max-width: 768px) {
-              a {
-                display: none;
-              }
-              .sm_w2_1prices_rate {
-                display: block;
-              }
-            }
+            // @media (max-width: 768px) { a {      display: none;   } .sm_w2_1prices_rate { display: block; } }
           }
         }   
       }
