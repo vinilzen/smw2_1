@@ -1,0 +1,7 @@
+.sm_w2_1.sm_w2_1horizontal_720 .sm_w2_1compare.sm_w2_1three-tbl tr td.sm_w2_1first-call a {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 89px;
+	min-width: 89px;
+}
