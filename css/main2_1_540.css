@@ -14,3 +14,6 @@
 .sm_w2_1.sm_w2_1horizontal_540 .sm_w2_1compare.sm_w2_1three-tbl tr:hover td.sm_w2_1first-call a {
   display: none;
 }
+.sm_w2_1.sm_w2_1horizontal_540 .sm_w2_1container .sm_w2_1col-4 {
+  width: 30%;
+}
